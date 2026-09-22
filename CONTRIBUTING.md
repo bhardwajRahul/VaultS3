@@ -60,8 +60,8 @@ node, partition two sites and check convergence). See the existing
 
 ## Translating the dashboard
 
-The dashboard ships English, German, French and Simplified Chinese. Adding a
-language is one JSON file, no code:
+The dashboard ships English, German, French, Russian and Simplified Chinese.
+Adding a language is one JSON file, no code:
 
 1. Copy `web/src/i18n/locales/en.json` to `web/src/i18n/locales/<code>.json`,
    where `<code>` is a BCP 47 tag (`es`, `pt-BR`, `ja`).

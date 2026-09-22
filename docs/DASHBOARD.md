@@ -24,7 +24,7 @@ The built-in dashboard is available at `http://localhost:9000/dashboard/`. Login
 - Migrate, import buckets from any S3-compatible source with live progress and a Cancel button for in-flight jobs
 - Version indicator, the running version is shown at the bottom of the sidebar, with an "update available" hint linking to releases
 - Dark/light theme, toggle with system preference detection
-- Language, English, German, French, Simplified Chinese, detected from the browser and switchable in the top bar
+- Language, English, German, French, Russian, Simplified Chinese, detected from the browser and switchable in the top bar
 - Responsive layout, mobile-friendly with collapsible sidebar
 - JWT-based authentication (24h tokens)
 
@@ -61,9 +61,10 @@ English. Change it with the selector in the top bar, and the choice is stored pe
 browser, so different people using the same server can each read it in their own
 language. There is no server-side setting.
 
-Shipping today: **English, Deutsch, Francais, and simplified Chinese**. The
-non-English files were drafted without a native-speaker review, so corrections
-are welcome.
+Shipping today: **English, Deutsch, Français, Русский, and simplified Chinese**.
+Russian was contributed by [@sweet0dream](https://github.com/sweet0dream). The
+German, French and Chinese files were drafted without a native-speaker review, so
+corrections are welcome.
 
 **Adding a language takes one JSON file and no code**: copy
 `web/src/i18n/locales/en.json`, translate the values, and add one entry to

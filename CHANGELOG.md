@@ -4,6 +4,14 @@ All notable changes to VaultS3 are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and the project follows
 semantic-ish versioning via git tags (`vMAJOR.MINOR.PATCH`).
 
+## [4.4.76] - 2026-09-22
+### Added
+- **The dashboard now ships a Russian translation** (PR #60, contributed by
+  [@sweet0dream](https://github.com/sweet0dream)). It covers all 548 strings, so
+  nothing falls back to English, and it is picked up automatically for a browser
+  set to Russian or selectable from the language menu in the top bar. Five
+  languages ship now: English, German, French, Russian and Simplified Chinese.
+
 ## [4.4.75] - 2026-09-12
 ### Fixed
 - **Per-bucket encryption was broken on a cluster: most reads answered 503 and
